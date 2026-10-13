@@ -1,4 +1,4 @@
-# VOICE
+# DbU
 
 A reproducible dialogue pipeline for MPDD and Bazinga: data preprocessing,
 three dialogue tasks, and IndexTTS-2 audio generation.

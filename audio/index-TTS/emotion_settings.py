@@ -1,4 +1,4 @@
-"""Fixed VOICE TTS controls shared by planning and synthesis."""
+"""Fixed DbU TTS controls shared by planning and synthesis."""
 STRENGTH = 0.6
 EMO_ALPHA = 1.0
 ORDER = ['happiness', 'angry', 'sadness', 'fear', 'disgust',
@@ -13,8 +13,8 @@ def validate_jobs(jobs, order=ORDER):
     for job in jobs:
         label = job.get('emotion')
         if label not in LABELS:
-            raise ValueError('Unknown VOICE emotion label')
+            raise ValueError('Unknown DbU emotion label')
         expected = [STRENGTH if item == label else 0.0 for item in order]
         if job.get('emotion_vector') != expected or job.get('emo_alpha') != EMO_ALPHA:
-            raise ValueError('VOICE requires strength 0.6 for neutral and all emotions, '
+            raise ValueError('DbU requires strength 0.6 for neutral and all emotions, '
                              'with emo_alpha=1.0; rebuild the plan')

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run/dry-run any VOICE task; supports resumable, auditable JSONL output."""
+"""Run/dry-run any DbU task; supports resumable, auditable JSONL output."""
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import nullcontext
