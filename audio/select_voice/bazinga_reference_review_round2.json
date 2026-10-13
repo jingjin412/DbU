@@ -1,0 +1,105 @@
+{
+  "schema": "bazinga_reference_review_round2_v1",
+  "voices_sha256": "4046ff56dcb0a50f1253ccd55f7ff75021c0fd3885e341976634fc050673f6c2",
+  "dataset_sha256": "75c62c275fcda8ef4c8636e1271dee133707cbcd1d3f1bcd5cf845d4bd431098",
+  "review_round": 2,
+  "candidates_sha256": "60c2e2257b3ff88235b612de023d9a7f226724d057f2772bde9d6407da7dc03b",
+  "round1_review_sha256": "3bcafebeaf4a72466447878085f0fb21436af82622926a685a56ff5e14590fcc",
+  "exported_at": "2026-10-08T12:09:51.360Z",
+  "selection": {
+    "min_participants": 3,
+    "reference_min_seconds_exclusive": 2,
+    "dialogues": 217,
+    "utterances": 3299
+  },
+  "records": {
+    "SixFeetUnder:gabe_dimas": {
+      "reference_sha256": "67b788b75e787c2cbee17ed176b631bda20fea0b0a1c2af1008b81d9e276c8a9",
+      "reviewed": true,
+      "issues": [],
+      "decision": "keep",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 4.39,
+      "notes": "",
+      "updated_at": "2026-10-08T12:09:05.797Z",
+      "reference_wav": "references/bazinga_round2/c87072591d74c6b0148e7409.wav",
+      "no_candidate": false
+    },
+    "SixFeetUnder:keith_charles": {
+      "reference_sha256": "3cd7a8fede7e282312b8a8e668ca405c7da295f07308528a097af88c0d6bb986",
+      "reviewed": true,
+      "issues": [],
+      "decision": "exclude",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 3.33,
+      "notes": "",
+      "updated_at": "2026-10-08T12:09:19.987Z",
+      "reference_wav": "references/bazinga_round2/abb36092183ce9fe8cf13261.wav",
+      "no_candidate": false
+    },
+    "SixFeetUnder:nathaniel_fisher": {
+      "reference_sha256": "4bf868232963966d6c5309ec084244b435b4018f9734cc0a22d2ca93fe1e5d3d",
+      "reviewed": true,
+      "issues": [],
+      "decision": "keep",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 3.19,
+      "notes": "",
+      "updated_at": "2026-10-08T12:09:27.245Z",
+      "reference_wav": "references/bazinga_round2/ec3f71a2da3938afa7b91fc4.wav",
+      "no_candidate": false
+    },
+    "TheOffice:lonny": {
+      "reference_sha256": "no_candidate:e876e134b6e8b35096fd08aecb41273490a5ce72f1f43e1f386a244078c37edf",
+      "reviewed": true,
+      "issues": [
+        "uncertain"
+      ],
+      "decision": "exclude",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 0,
+      "notes": "沒有符合條件的新候選",
+      "updated_at": "2026-10-08T12:09:34.351Z",
+      "reference_wav": null,
+      "no_candidate": true
+    },
+    "TheOffice:madge": {
+      "reference_sha256": "no_candidate:798b4bdac9909710a2e8841cedfcc8d078508bc92130e3bcf8473d09dac0898e",
+      "reviewed": true,
+      "issues": [
+        "uncertain"
+      ],
+      "decision": "exclude",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 0,
+      "notes": "沒有符合條件的新候選",
+      "updated_at": "2026-10-08T12:09:37.306Z",
+      "reference_wav": null,
+      "no_candidate": true
+    },
+    "TheOffice:roy_anderson": {
+      "reference_sha256": "77734d69e4fb406792dd1b9a8282206357d8207f000dde6f871b9e8f37c8bc54",
+      "reviewed": true,
+      "issues": [],
+      "decision": "keep",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 2.88,
+      "notes": "",
+      "updated_at": "2026-10-08T12:09:44.086Z",
+      "reference_wav": "references/bazinga_round2/f0007867406660c8947130bf.wav",
+      "no_candidate": false
+    },
+    "TheOffice:ryan_howard": {
+      "reference_sha256": "3504b2013032c355fb6e68d4420c99259418635343d207931c69b296959ee1a5",
+      "reviewed": true,
+      "issues": [],
+      "decision": "keep",
+      "trim_start_seconds": 0,
+      "trim_end_seconds": 2.38,
+      "notes": "",
+      "updated_at": "2026-10-08T12:09:49.194Z",
+      "reference_wav": "references/bazinga_round2/71302bb5c45313a0d7a012dd.wav",
+      "no_candidate": false
+    }
+  }
+}

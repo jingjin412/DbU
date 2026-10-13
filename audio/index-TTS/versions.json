@@ -1,0 +1,8 @@
+{
+  "source_repository": "https://github.com/index-tts/index-tts.git",
+  "source_revision": "830f6f8f94a51fea23ab1d639027a86200075a4e",
+  "source_tag": "v2.0.0",
+  "model_repository": "IndexTeam/IndexTTS-2",
+  "model_revision": "740dcaff396282ffb241903d150ac011cd4b1ede",
+  "emotion_vector_order": ["happiness", "angry", "sadness", "fear", "disgust", "melancholic", "surprise", "neutral"]
+}
